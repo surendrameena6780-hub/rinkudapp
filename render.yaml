@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: rinkudapp
+    runtime: node
+    startCommand: node index.js
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: NODE_ENV
+        value: production
