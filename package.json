@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "type": "module", 
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "cors": "^x.x.x",
-    "dotenv": "^x.x.x",
+    "cors": "^4.x.x",
+    "dotenv": "^16.x.x",
     "ethers": "^6.x.x",
     "express": "^4.x.x"
   }
